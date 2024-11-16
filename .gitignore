@@ -1,0 +1,16 @@
+.env
+node_modules/
+.log
+package-lock.json
+dist/
+build/
+.DS_Store
+Thumbs.db
+*.log
+*.local.js
+*.crx
+.vscode/
+.idea/
+*.sublime-*
+*.bak
+*.tmp

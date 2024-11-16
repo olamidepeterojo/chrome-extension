@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OP Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="popup-container">
+        <h2>OP Assistant</h2>
+        
+        <!-- Input for user prompt or text -->
+        <input type="text" id="user-input" placeholder="Type your text or prompt here" />
+        
+        <!-- Buttons for actions -->
+        <div class="button-group">
+            <button id="analyze-button">Analyze Text</button>
+            <button id="openai-button">Ask OpenAI</button>
+        </div>
+
+        <!-- Display for output responses -->
+        <div id="output" class="output-display">Response will appear here...</div>
+
+        <hr />
+
+        <!-- Section for managing API keys -->
+        <h3>API Key Manager</h3>
+        
+        <!-- Input fields for API keys -->
+        <label for="googleKeyInput">Google Cloud API Key:</label>
+        <input type="text" id="googleKeyInput" placeholder="Enter Google Cloud API Key" />
+        <br>
+        <label for="openaiKeyInput">OpenAI API Key:</label>
+        <input type="text" id="openaiKeyInput" placeholder="Enter OpenAI API Key" />
+        <br>
+
+        <!-- Button to save API keys -->
+        <button id="saveKeysButton">Save Keys</button>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
